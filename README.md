@@ -67,4 +67,4 @@ Polyglot Coding Playground is a comprehensive repository aimed at showcasing pro
 
 ## :bookmark: License
 
-[MIT License](https://choosealicense.com/licenses/mit/) :copyright: 2024 Christoph Hartleb
+This project is licensed under the terms of the [MIT License](LICENSE).
