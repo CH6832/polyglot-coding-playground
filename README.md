@@ -10,7 +10,6 @@ Polyglot Coding Playground is a comprehensive repository aimed at showcasing pro
 - [Design Patterns](#design-patterns)
 - [Data Structures](#data-structures)
 - [Coding Challenges](#coding-challenges)
-- [License](#license)
 
 ### Algorithms
 
