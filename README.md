@@ -46,12 +46,33 @@ Polyglot Coding Playground is a comprehensive repository aimed at showcasing pro
                 └── linearSearch.cpp
             └── sorting/
                 └── bubbleSort.cpp
-		└── zig
+		├── zig
+            ├── backtracking/
+                ├── rat_in_a_maze.zig
+                └── travelling_salesman_problem.zig        
+            ├── divide_and_conquer/
+                └── lowest_common_ancestor.zig        
+            ├── dynamic_programming/
+                └── knapsack_problem.zig
+            ├── graph/
+                ├── breadth_first_search.zig
+                ├── depth_first_search_for_a_graph.zig
+                ├── minimum_spanning_tree_with_kruskal.zig
+                └── shortest_path_problem_with_dijkstra.zig        
 		    ├── searching/
                 ├── binary_search.zig
                 └── linear_search.zig
             └── sorting/
-                └── bubble_sort.zig
+                ├── bubble_sort.zig
+                ├── bucket_sort.zig
+                ├── counting_sort.zig
+                ├── heap_sort.zig
+                ├── insertion_sort.zig
+                ├── merge_sort.zig
+                ├── quick_sort.zig
+                └── topological_sort_of_dag.zig                
+        └── java
+            └── There are a lot of projects. Please check them out. Thank you
 
 ### Design Patterns
 
