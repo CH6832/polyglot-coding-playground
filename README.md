@@ -17,33 +17,67 @@ Polyglot Coding Playground is a comprehensive repository aimed at showcasing pro
     └── algorithms/
         ├── python/
             ├── backtracking/
+                ├── rat_in_a_maze.py
+                └── travelling_salesman_problem.py
             ├── divide_and_conquer/
+                └── lowest_common_ancestor.py
             ├── dynamic_programming/
+                └── knapsack_problem.py
             ├── graph/
-            ├── greedy/
-            ├── randomized/
+                ├── breadth_first_search.py
+                ├── depth_first_search_for_a_graph.py
+                ├── minimum_spanning_tree_with_kruskal.py
+                └── shortest_path_problem_with_dijkstra.py
             ├── searching/
+                ├── binary_search.py
+                └── linear_search.py
             └── sorting/
-        └── cplusplus/
+                ├── bubble_sort.py
+                ├── bucket_sort.py
+                ├── counting_sort.py
+                ├── heap_sort.py
+                ├── insertion_sort.py
+                ├── merge_sort.py
+                ├── quick_sort.py
+                └── topological_sort_of_dag.py
+        ├── cplusplus/
+		    ├── searching/
+                ├── binarySearch.cpp
+                └── linearSearch.cpp
+            └── sorting/
+                └── bubbleSort.cpp
+		└── zig
+		    ├── searching/
+                ├── binary_search.zig
+                └── linear_search.zig
+            └── sorting/
+                └── bubble_sort.zig
 
 ### Design Patterns
 
     .
     └── design-patterns/
         └── cplusplus/
-            └── src/
-                └── creational/
-                    └── Singleton.cpp
+			└── singleton
+				└── src/
+					└── creational/
+						└── Singleton.cpp
 
 ### Data Structures
 
     .
     └── data-structures/ - Explore different data structures implemented in different languages for a deeper understanding of their usage and performance.
+        └── cplusplus/
+            ├── doublyLinkedList.cpp
+            ├── dynamicArray.cpp
+            └── singleLinkedList.cpp
 
 ### Coding Challenges
 
     .
     └── coding-challanges/ - Challenge your problem-solving skills with coding challenges from popular platforms, implemented in different languages.
+        ├── leetcode
+        └── hackerrank
 
 **Note**: This repository is a work in progress and will be regularly updated with new content and improvements. Your feedback and contributions are highly appreciated!
 
@@ -56,6 +90,8 @@ Polyglot Coding Playground is a comprehensive repository aimed at showcasing pro
   * [Python 3.10.13 documentation](https://docs.python.org/3.10/)
   * [Built-in Functions](https://docs.python.org/3.10/library/functions.html)
   * [Python Module Index](https://docs.python.org/3.10/py-modindex.html)
+* Zig
+  * [Zig Language Reference](https://ziglang.org/documentation/0.12.0/)
 * Markdwon
   * [Basic syntax](https://www.markdownguide.org/basic-syntax/)
   * [Complete list of github markdown emofis](https://dev.to/nikolab/complete-list-of-github-markdown-emoji-markup-5aia)
