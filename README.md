@@ -15,83 +15,127 @@ Polyglot Coding Playground is a comprehensive repository aimed at showcasing pro
 
     .
     └── algorithms/
-        ├── python/
-            ├── backtracking/
-                ├── rat_in_a_maze.py
-                └── travelling_salesman_problem.py
-            ├── divide_and_conquer/
-                └── lowest_common_ancestor.py
-            ├── dynamic_programming/
-                └── knapsack_problem.py
-            ├── graph/
-                ├── breadth_first_search.py
-                ├── depth_first_search_for_a_graph.py
-                ├── minimum_spanning_tree_with_kruskal.py
-                └── shortest_path_problem_with_dijkstra.py
-            ├── searching/
-                ├── binary_search.py
-                └── linear_search.py
-            └── sorting/
-                ├── bubble_sort.py
-                ├── bucket_sort.py
-                ├── counting_sort.py
-                ├── heap_sort.py
-                ├── insertion_sort.py
-                ├── merge_sort.py
-                ├── quick_sort.py
-                └── topological_sort_of_dag.py
-        ├── cplusplus/
-		    ├── searching/
-                ├── binarySearch.cpp
-                └── linearSearch.cpp
-            └── sorting/
-                └── bubbleSort.cpp
-		├── zig
-            ├── backtracking/
-                ├── rat_in_a_maze.zig
-                └── travelling_salesman_problem.zig        
-            ├── divide_and_conquer/
-                └── lowest_common_ancestor.zig        
-            ├── dynamic_programming/
-                └── knapsack_problem.zig
-            ├── graph/
-                ├── breadth_first_search.zig
-                ├── depth_first_search_for_a_graph.zig
-                ├── minimum_spanning_tree_with_kruskal.zig
-                └── shortest_path_problem_with_dijkstra.zig        
-		    ├── searching/
-                ├── binary_search.zig
-                └── linear_search.zig
-            └── sorting/
-                ├── bubble_sort.zig
-                ├── bucket_sort.zig
-                ├── counting_sort.zig
-                ├── heap_sort.zig
-                ├── insertion_sort.zig
-                ├── merge_sort.zig
-                ├── quick_sort.zig
-                └── topological_sort_of_dag.zig                
-        └── java
-            └── There are a lot of projects. Please check them out. Thank you
+        ├── backtracking/
+            ├── rat-in-a-maze/ - python
+            └── travelling-salesman-problem/ - python        
+        ├── compression/
+            ├── huffman/ - java
+            ├── lempel-ziv-welch/ - java            
+            └── z-algorithm/ - java          
+        ├── computational-geoemtry/
+            └── convex-hull/ - python
+        ├── cryptography/
+            ├── rsa-encryption/ - python
+            └── sha256-hashing/ - python          
+        ├── differential-equations/
+            ├── euler-method/ - python
+            └── runge-kutta/ - python          
+        ├── divide-and-conquer/
+            └── lowest-common-ancestor/ - python        
+        ├── dynamic-programming/
+            └── knapsack-problem/ - python
+        ├── graph/
+            ├── breadth-first-search/ - java
+            ├── depth-first-search-for-a-graph/ - java            
+            └── shortest-path-problem-with-dijkstra/ - java         
+        ├── linear-algebra/
+            ├── eigenvalue-algorithms/ - java
+                ├── lanczos-algorithm/ - java
+                ├── power-iteration/ - java            
+                └── qr-algorithm/ - java                     
+            ├── gaussian-elimination/ - java
+            ├── jacobi-iteration/ - java            
+            └── least-squares-method/ - java         
+        ├── machine-learning/
+            └── linear-regression/ - java
+        ├── matrix-algorithms
+            ├── eigenvalue-algorithms/
+                ├── power-iteration/ - python
+                └── qr-algorithm/ - python                 
+            ├── lu-decomposition/ - python            
+            ├── qr-decomposition/ - python
+            └── singular-value-decomposition/ - python            
+        ├── number-theory/
+            └── euclid/ - java
+        ├── numerical-integration/
+            └── monte-carlo/ - python
+        ├── numerical-optimization-algorithms
+            ├── classical-genetic-algorithms/ - python               
+            ├── conjugate-gradient/ - python                  
+            ├── gradient-descent/ - python
+            └── simulated-annealing/ - python          
+        ├── root-finding-optimization/
+            ├── gradient-descent/ - java            
+            └── newtons-method/ - java 
+        ├── searching/
+            ├── binary-search/ - java         
+            ├── boyer-moore/ - java            
+            ├── knutt-morris-pratt/ - java
+            ├── linear-search/ - java            
+            └── rabin-karp/ - java     
+        ├── sicgnal-processing/
+            └── fast-fourier-transform/ - python
+        ├── sorting/
+            ├── bubble-sort/ - cpp, python, zig
+            ├── bucket-sort/ - cpp, python, zig
+            ├── counting-sort/ - cpp, python, zig
+            ├── heap-sort/ - cpp, python, zig
+            ├── insertion-sort/ - cpp, python, zig
+            ├── merge-sort/ - cpp, python, zig
+            ├── quick-sort/ - cpp, python, zig
+            └── topological-sort-of-dag/ - cpp, python, zig
+        ├── statistical-analysis             
+            ├── bayesian-inference/ - python
+            ├── least-squares-fitting/ - python            
+            └── maximum-likelihood-estimation/ - python           
+        └── trees/
+            ├── avl/ - java
+            ├── binary-search-tree/ - java
+            ├── fenwick-tree/ - java
+            ├── kd-tree/ - java
+            ├── minimum-spanning-tree-with-kruskal/ - java
+            ├── nearset-neighbour-with-kd-tree/ - java           
+            ├── breadth-first-search/ - java
+            ├── prefix-tree/ - java
+            ├── radix-tree/ - java
+            ├── segment-tree/ - java
+            ├── splay-tree/ - java
+            ├── suffix-tree/ - java
+            └── tree-map/ - java
+
+### Data Structures
+
+    .
+    └── data-structures/ - cpp
+        ├── disjoint-set/ - cpp
+        ├── double-linked-list/ - cpp    
+        ├── dynamic-array/ - cpp
+        ├── hash-map/ - cpp
+        ├── heap/ - cpp
+        ├── lock-free-linked-list/ - cpp    
+        ├── object-oriented-programming/ - cpp
+        ├── single_linked-list/ - cpp           
+        ├── skip-list/ - cpp
+        └── suffix-array/ - cpp
 
 ### Design Patterns
 
     .
     └── design-patterns/
-        └── cplusplus/
-			└── singleton
-				└── src/
-					└── creational/
-						└── Singleton.cpp
-
-### Data Structures
-
-    .
-    └── data-structures/ - Explore different data structures implemented in different languages for a deeper understanding of their usage and performance.
-        └── cplusplus/
-            ├── doublyLinkedList.cpp
-            ├── dynamicArray.cpp
-            └── singleLinkedList.cpp
+        ├── abstract-factory-pattern/ - cpp
+        ├── adapter-pattern/ - cpp    
+        ├── builder-pattern/ - cpp
+        ├── command-pattern/ - cpp
+        ├── composite-pattern/ - cpp
+        ├── decorator-pattern/ - cpp    
+        ├── factory-method-pattern/ - cpp
+        ├── flyweight-pattern/ - cpp           
+        ├── oberserver-pattern/ - cpp    
+        ├── prototype-pattern/ - cpp
+        ├── proxy-pattern/ - cpp    
+        ├── singleton-pattern/ - cpp
+        ├── strategy-pattern/ - cpp
+        └── template-method-pattern/ - cpp
 
 ### Coding Challenges
 
@@ -107,10 +151,12 @@ Polyglot Coding Playground is a comprehensive repository aimed at showcasing pro
 * C++
   * [C++ reference](https://en.cppreference.com/w/)
   * [C++ Programming Language](https://devdocs.io/cpp/)
+* Java
+  * [Java Documentation](https://docs.oracle.com/en/java/)
 * Python
-  * [Python 3.10.13 documentation](https://docs.python.org/3.10/)
-  * [Built-in Functions](https://docs.python.org/3.10/library/functions.html)
-  * [Python Module Index](https://docs.python.org/3.10/py-modindex.html)
+  * [Python 3.10.13 documentation](https://docs/thon.org/3.10/)
+  * [Built-in Functions](https://docs/thon.org/3.10/library/functions.html)
+  * [Python Module Index](https://docs/thon.org/3.10/py-modindex.html)
 * Zig
   * [Zig Language Reference](https://ziglang.org/documentation/0.12.0/)
 * Markdwon
@@ -118,8 +164,12 @@ Polyglot Coding Playground is a comprehensive repository aimed at showcasing pro
   * [Complete list of github markdown emofis](https://dev.to/nikolab/complete-list-of-github-markdown-emoji-markup-5aia)
   * [Awesome template](http://github.com/Human-Activity-Recognition/blob/main/README.md)
   * [.gitignore file](https://git-scm.com/docs/gitignore)
-* Editor
+* Editors
   * [Visual Studio Code](https://code.visualstudio.com/)
+  * [Visual Studio Community Edition](https://visualstudio.microsoft.com/de/vs/community/)
+  * [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download/?section=windows)
+  * [Code::Blocks](https://www.codeblocks.org/downloads/)
+  * [Apache Netbeans](https://netbeans.apache.org/front/main/download/index.html)
 
 ## :bookmark: License
 
