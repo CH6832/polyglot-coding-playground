@@ -4,6 +4,9 @@
 
 Polyglot Coding Playground is a comprehensive repository aimed at showcasing proficiency in various programming languages through implementations of algorithms, data structures, design patterns, coding challenges, and small projects. Whether you're a beginner looking to learn new languages or an experienced developer wanting to dive deeper into language syntax, this repository provides a valuable resource for exploration and learning.
 
+> [!NOTE]
+> In addition to the implementations themselves, the repository also includes documentation in the main programs of the projects, providing insights into how the projects were built and what programs were used in their development.
+
 ## :notebook: Content overview
 
 - [Algorithms](#algorithms)
