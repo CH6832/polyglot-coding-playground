@@ -14,7 +14,7 @@ fn travellingSalesmanProblem(graph: [][]i32, s: i32) i32 {
     const V = graph.len;
     var vertex = []i32{};
 
-    for (graph) |row, i| {
+    for (graph, 0..) {
         if (i != s) {
             vertex |= i;
         }
@@ -33,7 +33,7 @@ fn travellingSalesmanProblem(graph: [][]i32, s: i32) i32 {
         }
         currentPathWeight += graph[k][s];
 
-        minPath = @intCast(i32, @min(@intCast(u32, minPath), @intCast(u32, currentPathWeight)));
+        minPath = @as(i32, @intCast(@min(@as(u32, @intCast(minPath)), @as(u32, @intCast(currentPathWeight)))));
     }
 
     return minPath;
@@ -42,10 +42,10 @@ fn travellingSalesmanProblem(graph: [][]i32, s: i32) i32 {
 pub fn main() void {
     const V = 4;
     var graph = [][]i32{
-        []i32{0, 10, 15, 20},
-        []i32{10, 0, 35, 25},
-        []i32{15, 35, 0, 30},
-        []i32{20, 25, 30, 0},
+        []i32{ 0, 10, 15, 20 },
+        []i32{ 10, 0, 35, 25 },
+        []i32{ 15, 35, 0, 30 },
+        []i32{ 20, 25, 30, 0 },
     };
 
     const s = 0;
