@@ -1,38 +1,49 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+
 """rat_in_a_maze.py
 
-The problem entails identifying the most efficient route that connects a
-set of cities, ensuring each city is visited once and returning to the initial city.
+This program explores all possible paths in a maze using backtracking. It starts from the top-left corner
+of the maze and recursively explores all valid paths until it reaches the bottom-right corner. The is_valid
+function checks whether a given cell is inside the maze and unblocked. The find_path function recursively
+explores all valid directions from the current cell and backtracks when necessary. Finally, the main function
+initializes the maze and calls the find_path function to find all valid paths.
 
 .. _PEP 484:
     https://www.python.org/dev/peps/pep-0484/
 """
 
-# Initialize a string direction which represents all the directions.
-direction = "DLRU"
 
-# Arrays to represent change in rows and columns
-dr = [1, 0, 0, -1]
-dc = [0, -1, 1, 0]
-
-# Function to check if cell(row, col) is inside the maze
-# and unblocked
+from typing import List
 
 
-def main():
-    # Driver code
-    maze = [
+# D -> Down
+# L -> Left
+# R -> Right
+# U -> Up
+DIRECTION = "DLRU"
+
+# arrays to represent change in rows and columns
+dr: list = [1, 0, 0, -1]
+dc: list = [0, -1, 1, 0]
+
+
+def main() -> None:
+    "Driver code and program entry point."
+    maze: List[list] = [
         [1, 0, 0, 0],
         [1, 1, 0, 1],
         [1, 1, 0, 0],
         [0, 1, 1, 1]
     ]
 
-    n = len(maze)
-    # List to store all the valid paths
-    result = []
+    # get the length of the maze
+    n: int = len(maze)
+    
+    # list to store all valid paths
+    result: list = []
+    
     # Store current path
     current_path = ""
 
@@ -45,40 +56,67 @@ def main():
     else:
         print(" ".join(result))
 
+    return None
 
-def is_valid(row, col, n, maze):
+
+def is_valid(row: int, col: int, n: int, maze: List[List[int]]) -> bool:
+    """Check if cell(row, col) is inside the maze and unblocked.
+
+    Keyword Arguments:
+    row (int) -- The row index of the cell.
+    col (int) -- The column index of the cell.
+    n (int) -- The size of the maze (number of rows/columns).
+    maze (List[List[int]]) -- The maze represented as a 2D array.
+
+    Returns:
+    bool -- True if the cell is inside the maze and unblocked, False otherwise.
+    """
+
     return 0 <= row < n and 0 <= col < n and maze[row][col] == 1
 
 
-# Function to get all valid paths
-def find_path(row, col, maze, n, ans, current_path):
-    # If we reach the bottom right cell of the matrix, add
-    # the current path to ans and return
+def find_path(row, col, maze, n, ans, current_path) -> None:
+    """Get all valid paths to escape the maze using backtracking.
+
+    Keyword Arguments:
+    row (int) -- The current row index.
+    col (int) -- The current column index.
+    maze (List[List[int]]) -- The maze represented as a 2D array.
+    n (int) -- The size of the maze (number of rows/columns).
+    ans (List[str]) -- A list to store all valid paths.
+    current_path (str) -- The current path being explored.  
+    """
+    # if bottom right cell is reached, add current path to ans and return
     if row == n - 1 and col == n - 1:
         ans.append(current_path)
         return
-    # Mark the current cell as blocked
+    
+    # mark current cell as blocked
     maze[row][col] = 0
 
     for i in range(4):
-        # Find the next row based on the current row (row)
-        # and the dr[] array
+        
+        # find the next row based on the current row (row)
         next_row = row + dr[i]
-        # Find the next column based on the current column
-        # (col) and the dc[] array
+        
+        # find the next column based on the current column (col) and the dc[] array
         next_col = col + dc[i]
 
-        # Check if the next cell is valid or not
+        # check if the next cell is valid or not
         if is_valid(next_row, next_col, n, maze):
-            current_path += direction[i]
-            # Recursively call the find_path function for
+            current_path += DIRECTION[i]
+            
+            # recursively call the find_path function for
             # the next cell
             find_path(next_row, next_col, maze, n, ans, current_path)
-            # Remove the last direction when backtracking
+            
+            # remove the last DIRECTION when backtracking
             current_path = current_path[:-1]
 
-    # Mark the current cell as unblocked
+    # mark the current cell as unblocked
     maze[row][col] = 1
+
+    return None
 
 
 if __name__ == '__main__':
