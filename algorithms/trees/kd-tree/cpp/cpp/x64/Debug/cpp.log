@@ -1,0 +1,6 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (cpp.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  MazeSolver.cpp
+C:\Users\chris\Desktop\polyglot-coding-playground\algorithms\backtracking\rat-in-a-maze\cpp\cpp\MazeSolver.cpp(35,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  main.cpp
+  Generating Code...
+  cpp.vcxproj -> C:\Users\chris\Desktop\polyglot-coding-playground\algorithms\backtracking\rat-in-a-maze\cpp\x64\Debug\ratInAMaze.exe

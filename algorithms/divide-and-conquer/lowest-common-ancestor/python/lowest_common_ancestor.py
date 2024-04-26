@@ -3,6 +3,28 @@
 
 """lowest_common_ancestor.py
 
+The Lowest Common Ancestor (LCA) algorithm is used to find the lowest common ancestor of two nodes in a tree or directed acyclic graph (DAG). The lowest common ancestor of two nodes u and v in a tree is the lowest (i.e., deepest) node that has both u and v as descendants.
+
+Here's a general overview of the LCA algorithm:
+
+    Tree Representation: The tree is typically represented as an adjacency list, adjacency matrix, or as a collection of nodes with parent pointers.
+
+    Depth Calculation: First, calculate the depth (or level) of each node in the tree. This can be done using a depth-first search (DFS) or breadth-first search (BFS) traversal.
+
+    Parent Pointers: Next, create parent pointers for each node, allowing you to navigate from a node to its parent.
+
+    Finding the LCA: Given two nodes u and v, compare their depths. If u is deeper than v, move u up the tree until it is at the same level as v. Similarly, if v is deeper, move v up the tree until it is at the same level as u. Then, simultaneously move both u and v up the tree until they meet at the lowest common ancestor.
+
+Here's a high-level overview of the steps involved in finding the LCA of two nodes u and v:
+
+    Calculate the depths of nodes u and v.
+    Move the deeper node up the tree until it is at the same level as the other node.
+    Move both nodes up the tree simultaneously until they meet at the lowest common ancestor.
+
+The time complexity of the LCA algorithm depends on the method used to traverse the tree and calculate depths. In a binary tree, the time complexity is typically O(log N), where N is the number of nodes in the tree. However, in a general tree or DAG, the time complexity may vary depending on the specific implementation.
+
+Overall, the LCA algorithm is a fundamental operation in tree and graph algorithms, commonly used in applications such as finding the nearest common ancestor in genealogical trees, solving various graph-related problems, and implementing efficient data structures like disjoint-set forests.
+
 .. _PEP 484:
     https://www.python.org/dev/peps/pep-0484/
 """

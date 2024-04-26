@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cab50e6e-a829-4462-913c-aed4a6bf6ed1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rat-in-a-maze/java/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rat-in-a-maze/java/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rat-in-a-maze/java/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rat-in-a-maze/java/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rat-in-a-maze/java/rat-in-a-maze.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/.vs/cpp/FileContentIndex/21c9174e-5d4a-40ac-aa60-dc4705c98a72.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/.vs/cpp/FileContentIndex/32367212-b4a6-470a-a8d7-7280c364373c.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/.vs/ratInAMaze/FileContentIndex/075aee96-e1e0-4eac-bc09-46dba8c40b7b.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/.vs/ratInAMaze/FileContentIndex/672034ba-0f1b-4fb4-9ebb-e19eb3667f79.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/.vs/ratInAMaze/FileContentIndex/80fbead1-9688-4753-8271-380188385983.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/.vs/ratInAMaze/FileContentIndex/887ed91c-da8b-46ab-9fc0-984ff0bc7897.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/.vs/ratInAMaze/FileContentIndex/c7bab0c5-4eb1-458a-add5-969d3cfe7593.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/.vs/travellingSalesmanProblemSolver/v17/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/.vs/travellingSalesmanProblemSolver/v17/Browse.VC.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/.vs/travellingSalesmanProblemSolver/v17/DocumentLayout.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/.vs/travellingSalesmanProblemSolver/v17/Solution.VC.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/.vs/travellingSalesmanProblemSolver/v17/ipch/AutoPCH/38155f59dc3577af/TSMSOLVER.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/.vs/travellingSalesmanProblemSolver/v17/ipch/AutoPCH/92c2c0d7739404a7/MAIN.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/.vs/travellingSalesmanProblemSolver/v17/ipch/AutoPCH/ab9e42f5947bf61a/MAZESOLVER.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/TSMSolver.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/TSMSolver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/cpp.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/cpp.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/cpp.vcxproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Debug/MazeSolver.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Debug/cpp.exe.recipe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Debug/cpp.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Debug/cpp.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Debug/cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Debug/cpp.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Debug/cpp.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Debug/cpp.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Debug/cpp.tlog/Cl.items.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Debug/cpp.tlog/cpp.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Debug/cpp.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Debug/cpp.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Debug/cpp.tlog/link.secondary.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Debug/cpp.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Debug/main.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Debug/ratInAMaze.exe.recipe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Debug/ratInAMaze.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Debug/ratInAMaze.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Debug/ratInAMaze.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Debug/ratInAMaze.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Debug/ratInAMaze.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Debug/ratInAMaze.tlog/Cl.items.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Debug/ratInAMaze.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Debug/ratInAMaze.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Debug/ratInAMaze.tlog/link.secondary.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Debug/ratInAMaze.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Debug/ratInAMaze.tlog/ratInAMaze.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Debug/vc143.idb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Debug/vc143.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Release/MazeSolver.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Release/TSMSolver.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Release/cpp.exe.recipe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Release/cpp.iobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Release/cpp.ipdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Release/cpp.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Release/cpp.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Release/cpp.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Release/cpp.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Release/cpp.tlog/Cl.items.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Release/cpp.tlog/cpp.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Release/cpp.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Release/cpp.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Release/cpp.tlog/link.secondary.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Release/cpp.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Release/main.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Release/ratInAMaze.exe.recipe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Release/ratInAMaze.iobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Release/ratInAMaze.ipdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Release/ratInAMaze.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Release/ratInAMaze.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Release/ratInAMaze.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Release/ratInAMaze.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Release/ratInAMaze.tlog/Cl.items.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Release/ratInAMaze.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Release/ratInAMaze.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Release/ratInAMaze.tlog/link.secondary.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Release/ratInAMaze.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Release/ratInAMaze.tlog/ratInAMaze.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Release/travelli.970f36d3.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Release/travelli.970f36d3.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Release/travelli.970f36d3.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Release/travelli.970f36d3.tlog/Cl.items.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Release/travelli.970f36d3.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Release/travelli.970f36d3.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Release/travelli.970f36d3.tlog/link.secondary.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Release/travelli.970f36d3.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Release/travelli.970f36d3.tlog/travellingSalesmanProblem.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Release/travellingSalesmanProblem.exe.recipe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Release/travellingSalesmanProblem.iobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Release/travellingSalesmanProblem.ipdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cpp/x64/Release/vc143.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/travellingSalesmanProblemSolver.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/x64/Release/travellingSalesmanProblem.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/x64/Release/travellingSalesmanProblem.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TravellingSalesmanProblemSolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../compression/huffman/java/83HuffmanAlgorithm/83HuffmanAlgorithm.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../compression/huffman/java/83HuffmanAlgorithm/src/FrequencyComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../compression/huffman/java/83HuffmanAlgorithm/src/Huffman.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../compression/huffman/java/83HuffmanAlgorithm/src/HuffmanNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../compression/huffman/java/83HuffmanAlgorithm/src/HuffmanTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../compression/huffman/java/83HuffmanAlgorithm/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../compression/lempel-ziv-welch/java/85LZW/85LZW.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../compression/lempel-ziv-welch/java/85LZW/src/LZW.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../compression/lempel-ziv-welch/java/85LZW/src/LZWTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../compression/lempel-ziv-welch/java/85LZW/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../compression/z-algorithm/java/91ZAlgorithm/91ZAlgorithm.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../compression/z-algorithm/java/91ZAlgorithm/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../compression/z-algorithm/java/91ZAlgorithm/src/ZAlgorithm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../compression/z-algorithm/java/91ZAlgorithm/src/ZAlgorithmTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../computational-geoemtry/convex-hull/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../divide-and-conquer/lowest-common-ancestor/zig/lowest_common_ancestor.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../dynamic-programming/knapsack-problem/zig/knapsack_problem.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graph/breadth-first-search/zig/breadth_first_search.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graph/depth-first-search-for-a-graph/zig/depth_first_search_for_a_graph.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../graph/shortest-path-problem-with-dijkstra/zig/shortest_path_problem_with_dijkstra.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../linear-algebra/gaussian-elimination/python/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../linear-algebra/gaussian-elimination/python/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../searching/binary-search/zig/binary_search.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../searching/linear-search/zig/linear_search.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sorting/bubble-sort/zig/bubble_sort.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sorting/bucket-sort/zig/bucket_sort.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sorting/counting-sort/zig/counting_sort.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sorting/heap-sort/zig/heap_sort.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sorting/insertion-sort/zig/insertion_sort.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sorting/merge-sort/zig/merge_sort.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sorting/quick-sort/zig/quick_sort.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sorting/topological-sort-of-dag/zig/topological_sort_of_dag.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../trees/minimum-spanning-tree-with-kruskal/zig/minimum_spanning_tree_with_kruskal.zig" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2feFFQEYlMeUqgHOg2LEcw8R7kj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cab50e6e-a829-4462-913c-aed4a6bf6ed1" name="Changes" comment="" />
+      <created>1714153533498</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714153533498</updated>
+    </task>
+    <servers />
+  </component>
+</project>
