@@ -12,6 +12,8 @@ initializes the maze and calls the find_path function to find all valid paths.
 
 .. _PEP 484:
     https://www.python.org/dev/peps/pep-0484/
+
+
 """
 
 
@@ -62,14 +64,11 @@ def main() -> None:
 def is_valid(row: int, col: int, n: int, maze: List[List[int]]) -> bool:
     """Check if cell(row, col) is inside the maze and unblocked.
 
-    Keyword Arguments:
+    Keyword arguments:
     row (int) -- The row index of the cell.
     col (int) -- The column index of the cell.
     n (int) -- The size of the maze (number of rows/columns).
     maze (List[List[int]]) -- The maze represented as a 2D array.
-
-    Returns:
-    bool -- True if the cell is inside the maze and unblocked, False otherwise.
     """
 
     return 0 <= row < n and 0 <= col < n and maze[row][col] == 1
@@ -78,7 +77,7 @@ def is_valid(row: int, col: int, n: int, maze: List[List[int]]) -> bool:
 def find_path(row, col, maze, n, ans, current_path) -> None:
     """Get all valid paths to escape the maze using backtracking.
 
-    Keyword Arguments:
+    Keyword arguments:
     row (int) -- The current row index.
     col (int) -- The current column index.
     maze (List[List[int]]) -- The maze represented as a 2D array.

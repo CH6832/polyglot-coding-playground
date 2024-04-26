@@ -19,8 +19,8 @@ Polyglot Coding Playground is a comprehensive repository aimed at showcasing pro
     .
     └── algorithms/
         ├── backtracking/
-            ├── rat-in-a-maze/ - python
-            └── travelling-salesman-problem/ - python        
+            ├── rat-in-a-maze/ - cpp, java, python
+            └── travelling-salesman-problem/ - cpp, java, python        
         ├── compression/
             ├── huffman/ - java
             ├── lempel-ziv-welch/ - java            
@@ -157,9 +157,9 @@ Polyglot Coding Playground is a comprehensive repository aimed at showcasing pro
 * Java
   * [Java Documentation](https://docs.oracle.com/en/java/)
 * Python
-  * [Python 3.10.13 documentation](https://docs/thon.org/3.10/)
-  * [Built-in Functions](https://docs/thon.org/3.10/library/functions.html)
-  * [Python Module Index](https://docs/thon.org/3.10/py-modindex.html)
+  * [Python 3.12 documentation](https://docs.python.org/3/)
+  * [Built-in Functions](https://docs.python.org/3/library/functions.html)
+  * [Python Module Index](https://docs.python.org/3/py-modindex.html)
 * Zig
   * [Zig Language Reference](https://ziglang.org/documentation/0.12.0/)
 * Markdwon
