@@ -125,27 +125,27 @@ Polyglot Coding Playground is a comprehensive repository aimed at showcasing pro
 
     .
     └── design-patterns/
-        ├── abstract-factory-pattern/ - cpp
-        ├── adapter-pattern/ - cpp    
-        ├── builder-pattern/ - cpp
-        ├── command-pattern/ - cpp
-        ├── composite-pattern/ - cpp
-        ├── decorator-pattern/ - cpp    
-        ├── factory-method-pattern/ - cpp
-        ├── flyweight-pattern/ - cpp           
-        ├── oberserver-pattern/ - cpp    
-        ├── prototype-pattern/ - cpp
-        ├── proxy-pattern/ - cpp    
-        ├── singleton-pattern/ - cpp
-        ├── strategy-pattern/ - cpp
-        └── template-method-pattern/ - cpp
+        ├── abstract-factory-pattern/ - python
+        ├── adapter-pattern/ - python    
+        ├── builder-pattern/ - python
+        ├── command-pattern/ - python
+        ├── composite-pattern/ - python
+        ├── decorator-pattern/ - python    
+        ├── factory-method-pattern/ - python
+        ├── flyweight-pattern/ - python           
+        ├── oberserver-pattern/ - python    
+        ├── prototype-pattern/ - python
+        ├── proxy-pattern/ - python    
+        ├── singleton-pattern/ - cpp, python
+        ├── strategy-pattern/ - python
+        └── template-method-pattern/ - python
 
 ### Coding Challenges
 
     .
     └── coding-challanges/ - Challenge your problem-solving skills with coding challenges from popular platforms, implemented in different languages.
-        ├── leetcode
-        └── hackerrank
+        ├── leetcode (Progress)
+        └── hackerrank (Progress)
 
 **Note**: This repository is a work in progress and will be regularly updated with new content and improvements. Your feedback and contributions are highly appreciated!
 
