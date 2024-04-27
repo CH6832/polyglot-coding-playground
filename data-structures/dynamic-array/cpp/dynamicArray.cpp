@@ -1,34 +1,63 @@
-#include <iostream>
-#include <vector>
+#include "DynamicArray.h"
 
-int main() {
-    // Declare an empty vector of integers
-    std::vector<int> dynamicArray;
+DynamicArrayList::DynamicArrayList() : array(nullptr), capacity(0), length(0) {}
 
-    // Add elements to the dynamic array
-    dynamicArray.push_back(10);
-    dynamicArray.push_back(20);
-    dynamicArray.push_back(30);
+DynamicArrayList::~DynamicArrayList() {
+    delete[] array;
+}
 
-    // Access elements using array syntax
-    std::cout << "First element: " << dynamicArray[0] << std::endl;
-
-    // Access elements using iterator
-    std::cout << "All elements:";
-    for (auto it = dynamicArray.begin(); it != dynamicArray.end(); ++it) {
-        std::cout << " " << *it;
+void DynamicArrayList::append(int data) {
+    if (length == capacity) {
+        resize(capacity == 0 ? 1 : capacity * 2);
     }
-    std::cout << std::endl;
+    array[length++] = data;
+}
 
-    // Modify elements
-    dynamicArray[1] = 25;
+void DynamicArrayList::insert(int index, int data) {
+    if (index < 0 || index > length) {
+        return; // Invalid index
+    }
+    if (length == capacity) {
+        resize(capacity == 0 ? 1 : capacity * 2);
+    }
+    for (std::size_t i = length; i > index; --i) {
+        array[i] = array[i - 1];
+    }
+    array[index] = data;
+    ++length;
+}
 
-    // Remove the last element
-    dynamicArray.pop_back();
+void DynamicArrayList::remove(int index) {
+    if (index < 0 || index >= length) {
+        return; // Invalid index
+    }
+    for (std::size_t i = index; i < length - 1; ++i) {
+        array[i] = array[i + 1];
+    }
+    --length;
+}
 
-    // Size and capacity of the dynamic array
-    std::cout << "Size: " << dynamicArray.size() << std::endl;
-    std::cout << "Capacity: " << dynamicArray.capacity() << std::endl;
+int DynamicArrayList::get(int index) const {
+    if (index < 0 || index >= length) {
+        return -1; // Invalid index
+    }
+    return array[index];
+}
 
-    return 0;
+std::size_t DynamicArrayList::size() const {
+    return length;
+}
+
+bool DynamicArrayList::isEmpty() const {
+    return length == 0;
+}
+
+void DynamicArrayList::resize(std::size_t newCapacity) {
+    int* newArray = new int[newCapacity];
+    for (std::size_t i = 0; i < length; ++i) {
+        newArray[i] = array[i];
+    }
+    delete[] array;
+    array = newArray;
+    capacity = newCapacity;
 }

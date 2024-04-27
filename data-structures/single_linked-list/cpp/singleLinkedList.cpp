@@ -1,65 +1,57 @@
-#include <iostream>
+#include "SingleLInkedList.h"
 
-template <typename T>
-struct Node {
-    T data;
-    Node* next;
-    Node(T d) : data(d), next(nullptr) {}
-};
+Node::Node(int value) : data(value), next(nullptr) {}
 
-template <typename T>
-class LinkedList {
-private:
-    Node<T>* head;
+LinkedList::LinkedList() : head(nullptr) {}
 
-public:
-    LinkedList() : head(nullptr) {}
-
-    ~LinkedList() {
-        Node<T>* current = head;
-        while (current) {
-            Node<T>* temp = current;
-            current = current->next;
-            delete temp;
-        }
+LinkedList::~LinkedList() {
+    Node* curr = head;
+    while (curr != nullptr) {
+        Node* next = curr->next;
+        delete curr;
+        curr = next;
     }
+}
 
-    void append(T data) {
-        Node<T>* newNode = new Node<T>(data);
-        if (!head) {
-            head = newNode;
-        } else {
-            Node<T>* current = head;
-            while (current->next) {
-                current = current->next;
-            }
-            current->next = newNode;
-        }
+void LinkedList::insert(int value) {
+    Node* newNode = new Node(value);
+    newNode->next = head;
+    head = newNode;
+}
+
+bool LinkedList::remove(int value) {
+    if (head == nullptr) return false; // Empty list
+    if (head->data == value) { // If the value to remove is in the head
+        Node* temp = head;
+        head = head->next;
+        delete temp;
+        return true;
     }
-
-    void display() {
-        Node<T>* current = head;
-        while (current) {
-            std::cout << current->data << " ";
-            current = current->next;
-        }
-        std::cout << std::endl;
+    Node* curr = head;
+    while (curr->next != nullptr && curr->next->data != value) {
+        curr = curr->next;
     }
-};
+    if (curr->next == nullptr) return false; // Value not found
+    Node* temp = curr->next;
+    curr->next = curr->next->next;
+    delete temp;
+    return true;
+}
 
-int main() {
-    LinkedList<int> list;
+bool LinkedList::contains(int value) const {
+    Node* curr = head;
+    while (curr != nullptr) {
+        if (curr->data == value) return true;
+        curr = curr->next;
+    }
+    return false;
+}
 
-    // Append elements to the linked list
-    list.append(1);
-    list.append(2);
-    list.append(3);
-    list.append(4);
-    list.append(5);
-
-    // Display the linked list
-    std::cout << "Linked List: ";
-    list.display();
-
-    return 0;
+void LinkedList::display() const {
+    Node* curr = head;
+    while (curr != nullptr) {
+        std::cout << curr->data << " ";
+        curr = curr->next;
+    }
+    std::cout << std::endl;
 }

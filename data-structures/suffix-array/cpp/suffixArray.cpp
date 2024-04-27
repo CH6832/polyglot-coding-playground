@@ -1,53 +1,30 @@
-#include <iostream>
-#include <vector>
+#include "SuffixArray.h"
 #include <algorithm>
 
-// Define a suffix structure to hold index and suffix string
-struct Suffix {
-    int index;
-    std::string suffix;
-};
+SuffixArray::SuffixArray(const std::string& text) : text(text) {}
 
-// Comparator function to compare two suffixes
-bool suffixComparator(const Suffix& a, const Suffix& b) {
-    return a.suffix < b.suffix;
-}
-
-// Function to construct the suffix array
-std::vector<int> constructSuffixArray(const std::string& text) {
+void SuffixArray::constructSuffixArray() {
+    // Generate suffixes of the text
     int n = text.length();
-
-    // Create an array of suffixes
-    std::vector<Suffix> suffixes(n);
-    for (int i = 0; i < n; ++i) {
-        suffixes[i].index = i;
-        suffixes[i].suffix = text.substr(i);
+    std::vector<std::pair<std::string, int>> suffixes;
+    for (int i = 0; i < n; i++) {
+        suffixes.emplace_back(text.substr(i), i);
     }
 
-    // Sort the suffixes using the comparator function
-    std::sort(suffixes.begin(), suffixes.end(), suffixComparator);
+    // Sort the suffixes lexicographically
+    std::sort(suffixes.begin(), suffixes.end());
 
-    // Construct the suffix array
-    std::vector<int> suffixArray(n);
-    for (int i = 0; i < n; ++i) {
-        suffixArray[i] = suffixes[i].index;
+    // Populate the suffix array with the sorted suffix indices
+    suffixArray.resize(n);
+    for (int i = 0; i < n; i++) {
+        suffixArray[i] = suffixes[i].second;
     }
-
-    return suffixArray;
 }
 
-int main() {
-    std::string text = "banana";
-
-    // Construct the suffix array
-    std::vector<int> suffixArray = constructSuffixArray(text);
-
-    // Print the suffix array
-    std::cout << "Suffix Array: ";
+void SuffixArray::displaySuffixArray() const {
+    // Display the suffix array
     for (int i : suffixArray) {
         std::cout << i << " ";
     }
     std::cout << std::endl;
-
-    return 0;
 }

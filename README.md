@@ -111,12 +111,12 @@ Polyglot Coding Playground is a comprehensive repository aimed at showcasing pro
     .
     └── data-structures/ - cpp
         ├── disjoint-set/ - cpp
-        ├── double-linked-list/ - cpp    
+        ├── double-linked-list/ - cpp, java    
         ├── dynamic-array/ - cpp
-        ├── hash-map/ - cpp
+        ├── hash-map/ - cpp, java
         ├── heap/ - cpp
         ├── lock-free-linked-list/ - cpp    
-        ├── object-oriented-programming/ - cpp
+        ├── object-oriented-programming/ - cpp, java
         ├── single_linked-list/ - cpp           
         ├── skip-list/ - cpp
         └── suffix-array/ - cpp
@@ -160,8 +160,6 @@ Polyglot Coding Playground is a comprehensive repository aimed at showcasing pro
   * [Python 3.12 documentation](https://docs.python.org/3/)
   * [Built-in Functions](https://docs.python.org/3/library/functions.html)
   * [Python Module Index](https://docs.python.org/3/py-modindex.html)
-* Zig
-  * [Zig Language Reference](https://ziglang.org/documentation/0.12.0/)
 * Markdwon
   * [Basic syntax](https://www.markdownguide.org/basic-syntax/)
   * [Complete list of github markdown emofis](https://dev.to/nikolab/complete-list-of-github-markdown-emoji-markup-5aia)
