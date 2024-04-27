@@ -22,11 +22,11 @@ Polyglot Coding Playground is a comprehensive repository aimed at showcasing pro
             ├── rat-in-a-maze/ - cpp, java, python
             └── travelling-salesman-problem/ - cpp, java, python        
         ├── compression/
-            ├── huffman/ - java
-            ├── lempel-ziv-welch/ - java            
-            └── z-algorithm/ - java          
+            ├── huffman/ - cpp, java, python
+            ├── lempel-ziv-welch/ - cpp, java, python            
+            └── z-algorithm/ - cpp, java, python          
         ├── computational-geoemtry/
-            └── convex-hull/ - python
+            └── convex-hull/ - cpp, java, python
         ├── cryptography/
             ├── rsa-encryption/ - python
             └── sha256-hashing/ - python          
@@ -38,19 +38,19 @@ Polyglot Coding Playground is a comprehensive repository aimed at showcasing pro
         ├── dynamic-programming/
             └── knapsack-problem/ - python
         ├── graph/
-            ├── breadth-first-search/ - java
-            ├── depth-first-search-for-a-graph/ - java            
-            └── shortest-path-problem-with-dijkstra/ - java         
+            ├── breadth-first-search/ - python
+            ├── depth-first-search-for-a-graph/ - python            
+            └── shortest-path-problem-with-dijkstra/ - python         
         ├── linear-algebra/
-            ├── eigenvalue-algorithms/ - java
-                ├── lanczos-algorithm/ - java
-                ├── power-iteration/ - java            
-                └── qr-algorithm/ - java                     
-            ├── gaussian-elimination/ - java
-            ├── jacobi-iteration/ - java            
-            └── least-squares-method/ - java         
+            ├── eigenvalue-algorithms/ - python
+                ├── lanczos-algorithm/ - python
+                ├── power-iteration/ - python            
+                └── qr-algorithm/ - python                     
+            ├── gaussian-elimination/ - python
+            ├── jacobi-iteration/ - python            
+            └── least-squares-method/ - python         
         ├── machine-learning/
-            └── linear-regression/ - java
+            └── linear-regression/ - python
         ├── matrix-algorithms
             ├── eigenvalue-algorithms/
                 ├── power-iteration/ - python
@@ -59,7 +59,7 @@ Polyglot Coding Playground is a comprehensive repository aimed at showcasing pro
             ├── qr-decomposition/ - python
             └── singular-value-decomposition/ - python            
         ├── number-theory/
-            └── euclid/ - java
+            └── euclid/ - python
         ├── numerical-integration/
             └── monte-carlo/ - python
         ├── numerical-optimization-algorithms
@@ -68,25 +68,25 @@ Polyglot Coding Playground is a comprehensive repository aimed at showcasing pro
             ├── gradient-descent/ - python
             └── simulated-annealing/ - python          
         ├── root-finding-optimization/
-            ├── gradient-descent/ - java            
-            └── newtons-method/ - java 
+            ├── gradient-descent/ - python            
+            └── newtons-method/ - python 
         ├── searching/
-            ├── binary-search/ - java         
-            ├── boyer-moore/ - java            
-            ├── knutt-morris-pratt/ - java
-            ├── linear-search/ - java            
-            └── rabin-karp/ - java     
+            ├── binary-search/ - python         
+            ├── boyer-moore/ - python            
+            ├── knutt-morris-pratt/ - python
+            ├── linear-search/ - python            
+            └── rabin-karp/ - python     
         ├── sicgnal-processing/
             └── fast-fourier-transform/ - python
         ├── sorting/
-            ├── bubble-sort/ - cpp, python, zig
-            ├── bucket-sort/ - cpp, python, zig
-            ├── counting-sort/ - cpp, python, zig
-            ├── heap-sort/ - cpp, python, zig
-            ├── insertion-sort/ - cpp, python, zig
-            ├── merge-sort/ - cpp, python, zig
-            ├── quick-sort/ - cpp, python, zig
-            └── topological-sort-of-dag/ - cpp, python, zig
+            ├── bubble-sort/ - python
+            ├── bucket-sort/ - python
+            ├── counting-sort/ - python
+            ├── heap-sort/ - python
+            ├── insertion-sort/ - python
+            ├── merge-sort/ - python
+            ├── quick-sort/ - python
+            └── topological-sort-of-dag/ - python
         ├── statistical-analysis             
             ├── bayesian-inference/ - python
             ├── least-squares-fitting/ - python            
