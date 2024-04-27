@@ -92,19 +92,19 @@ Polyglot Coding Playground is a comprehensive repository aimed at showcasing pro
             ├── least-squares-fitting/ - python            
             └── maximum-likelihood-estimation/ - python           
         └── trees/
-            ├── avl/ - java
-            ├── binary-search-tree/ - java
-            ├── fenwick-tree/ - java
-            ├── kd-tree/ - java
-            ├── minimum-spanning-tree-with-kruskal/ - java
-            ├── nearset-neighbour-with-kd-tree/ - java           
-            ├── breadth-first-search/ - java
-            ├── prefix-tree/ - java
-            ├── radix-tree/ - java
-            ├── segment-tree/ - java
-            ├── splay-tree/ - java
-            ├── suffix-tree/ - java
-            └── tree-map/ - java
+            ├── avl/ - python
+            ├── binary-search-tree/ - python
+            ├── fenwick-tree/ - python
+            ├── kd-tree/ - python
+            ├── minimum-spanning-tree-with-kruskal/ - python
+            ├── nearset-neighbour-with-kd-tree/ - python           
+            ├── breadth-first-search/ - python
+            ├── prefix-tree/ - java, python
+            ├── radix-tree/ - python
+            ├── segment-tree/ - python
+            ├── splay-tree/ - python
+            ├── suffix-tree/ - python
+            └── tree-map/ - java, python
 
 ### Data Structures
 

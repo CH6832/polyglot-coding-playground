@@ -1,24 +1,20 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""travelling_salesman_problem.py
+"""segment_tree.py
 
-The program implements a solution to the Traveling Salesman Problem (TSP), a classic problem
-in graph theory and combinatorial optimization. The goal of the TSP is to find the shortest
-possible route that visits every city exactly once and returns to the original city. In this
-program, cities are repressented as vertices of a graph, and the distances between them are
-represented by edge weights in the graph.
+SegmentTreeNode Class: Represents a node in the segment tree. Each node contains information about the start and end indices of the segment it represents, the total sum (or any other aggregate value) of the segment, and references to its left and right child nodes.
+
+SegmentTree Class: Represents the segment tree data structure. It has methods for building the tree (build_tree), querying the total sum over a range (query), and updating the value of an element (update). The build_tree method constructs the segment tree recursively, dividing the array into smaller segments until each node represents a single element. The query method retrieves the total sum over a given range by traversing the tree recursively. The update method modifies the value of a specific element in the array and updates the segment tree accordingly.
+
+Example Usage: In the __main__ block, an example usage of the SegmentTree class is provided. A segment tree is constructed from a list of numbers, and queries are performed to find the total sum over various ranges. Additionally, an element in the array is updated, and subsequent queries reflect the change in the segment tree.
 
 .. _PEP 0000:
     https://peps.python.org/pep-0000/
 """
 
 
-from sys import maxsize
-from itertools import permutations
 from typing import List
-
-V = 4
 
 
 def main() -> None:
@@ -36,44 +32,75 @@ def main() -> None:
     return None
 
 
-def travelling_salesman_problem(graph: List[List[int]], s: int) -> int:
-    """This function takes two arguments: graph, which represents the weighted graph as an adjacency matrix,
-    and s, which is the starting vertex for the salesman. It computes the minimum Hamiltonian cycle (a
-    cycle that visits each vertex exactly once and returns to the starting vertex) in the given graph. The
-    function utilizes brute-force permutation to iterate through all possible permutations of vertices,
-    calculating the total path weight for each permutation. It returns the minimum path weight among all
-    permutations, which represents the shortest possible route for the salesman.
+class SegmentTreeNode:
+    """A node in the segment tree."""
+    def __init__(self, start: int, end: int):
+        self.start = start
+        self.end = end
+        self.total = 0
+        self.left = None
+        self.right = None
 
-    Keyword arguments:
-    graph (List[List[int]]) -- The adjacency matrix representing the weighted graph.
-    s (int) -- The starting vertex for the salesman.
-    """
-    # store all vertex apart from source vertex
-    vertex = []
+class SegmentTree:
+    """A segment tree data structure for range queries."""
+    def __init__(self, nums: List[int]):
+        self.root = self.build_tree(nums, 0, len(nums) - 1)
 
-    for i in range(V):
-        if i != s:
-            vertex.append(i)
+    def build_tree(self, nums: List[int], start: int, end: int) -> SegmentTreeNode:
+        """Recursively build the segment tree."""
+        if start == end:
+            node = SegmentTreeNode(start, end)
+            node.total = nums[start]
+            return node
 
-    # store minimum weight Hamiltonian Cycle
-    min_path = maxsize
-    next_permutation=permutations(vertex)
-    jls_extract_var = next_permutation
+        mid = (start + end) // 2
+        left_node = self.build_tree(nums, start, mid)
+        right_node = self.build_tree(nums, mid + 1, end)
 
-    for i in jls_extract_var:
-        # store current Path weight(cost)
-        current_pathweight = 0
-        # compute current path weight
-        k = s
-        for j in i:
-            current_pathweight += graph[k][j]
-            k = j
-        current_pathweight += graph[k][s]
+        node = SegmentTreeNode(start, end)
+        node.total = left_node.total + right_node.total
+        node.left = left_node
+        node.right = right_node
+        return node
 
-        # update minimum
-        min_path = min(min_path, current_pathweight)
-        
-    return min_path
+    def query(self, start: int, end: int) -> int:
+        """Query the total sum over the range [start, end]."""
+        return self._query(self.root, start, end)
+
+    def _query(self, node: SegmentTreeNode, start: int, end: int) -> int:
+        """Helper function for querying the segment tree."""
+        if node.start == start and node.end == end:
+            return node.total
+
+        mid = (node.start + node.end) // 2
+
+        if end <= mid:
+            return self._query(node.left, start, end)
+        elif start >= mid + 1:
+            return self._query(node.right, start, end)
+        else:
+            left_sum = self._query(node.left, start, mid)
+            right_sum = self._query(node.right, mid + 1, end)
+            return left_sum + right_sum
+
+    def update(self, index: int, value: int) -> None:
+        """Update the value of the element at the given index."""
+        self._update(self.root, index, value)
+
+    def _update(self, node: SegmentTreeNode, index: int, value: int) -> None:
+        """Helper function for updating the segment tree."""
+        if node.start == node.end == index:
+            node.total = value
+            return
+
+        mid = (node.start + node.end) // 2
+
+        if index <= mid:
+            self._update(node.left, index, value)
+        else:
+            self._update(node.right, index, value)
+
+        node.total = node.left.total + node.right.total
 
 
 if __name__ == '__main__':

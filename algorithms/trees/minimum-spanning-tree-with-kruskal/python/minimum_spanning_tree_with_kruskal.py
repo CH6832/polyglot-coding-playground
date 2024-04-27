@@ -1,3 +1,17 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+"""minimum_spanning_tree_with_kruskal.py
+
+    UnionFind Class: This class implements the Union-Find data structure, which is used to efficiently determine whether adding an edge creates a cycle in the minimum spanning tree.
+
+    Kruskal's Algorithm: The kruskal function takes a list of edges representing the graph and returns the minimum spanning tree using Kruskal's algorithm. It sorts the edges by weight and iterates through them, adding each edge to the MST if it does not create a cycle.
+
+    Example Usage: In the __main__ block, an example usage of the Kruskal's algorithm is provided. It initializes a graph represented as a list of edges, finds the minimum spanning tree using Kruskal's algorithm, and prints the edges of the MST.
+
+"""
+
+
 
 # spanning tree
 # ---------------

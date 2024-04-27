@@ -1,81 +1,118 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""travelling_salesman_problem.py
+"""splay_tree.py
 
-The program implements a solution to the Traveling Salesman Problem (TSP), a classic problem
-in graph theory and combinatorial optimization. The goal of the TSP is to find the shortest
-possible route that visits every city exactly once and returns to the original city. In this
-program, cities are repressented as vertices of a graph, and the distances between them are
-represented by edge weights in the graph.
+SplayNode Class: Represents a node in the splay tree. Each node contains a key value
+and references to its left and right child nodes.
+
+SplayTree Class: Represents the splay tree data structure. It has methods for
+inserting a key into the tree (insert), searching for a key in the tree (search),
+and performing splay operations to bring a node with a given key to the root of
+the tree (_splay, _rotate_left, _rotate_right). The splay operation involves
+performing rotations on the tree to move the node closer to the root.
+
+Example Usage: In the __main__ block, an example usage of the SplayTree class is
+provided. Keys are inserted into the tree using the insert method, and then various
+keys are searched for using the search method. The splay operation is automatically
+performed during search operations to optimize the tree structure.
 
 .. _PEP 0000:
     https://peps.python.org/pep-0000/
 """
 
 
-from sys import maxsize
-from itertools import permutations
-from typing import List
-
-V = 4
+from typing import Optional
 
 
 def main() -> None:
     """Driving code and main function"""
-    graph = [
-        [0, 10, 15, 20],
-        [10, 0, 35, 25],
-        [15, 35, 0, 30],
-        [20, 25, 30, 0]
-    ]
-    init_vertex = 0    
-    minimum_path = travelling_salesman_problem(graph, init_vertex)
-    print(f"Minimum path weight is '{minimum_path}'")
+    splay_tree = SplayTree()
+    keys = [7, 3, 10, 2, 6, 9, 11, 1, 5, 8, 12]
+    for key in keys:
+        splay_tree.insert(key)
+
+    print(splay_tree.search(8))  # Output: True
+    print(splay_tree.search(4))  # Output: False
  
     return None
 
 
-def travelling_salesman_problem(graph: List[List[int]], s: int) -> int:
-    """This function takes two arguments: graph, which represents the weighted graph as an adjacency matrix,
-    and s, which is the starting vertex for the salesman. It computes the minimum Hamiltonian cycle (a
-    cycle that visits each vertex exactly once and returns to the starting vertex) in the given graph. The
-    function utilizes brute-force permutation to iterate through all possible permutations of vertices,
-    calculating the total path weight for each permutation. It returns the minimum path weight among all
-    permutations, which represents the shortest possible route for the salesman.
+class SplayNode:
+    """A node in the splay tree."""
+    def __init__(self, key: int):
+        self.key = key
+        self.left: Optional[SplayNode] = None
+        self.right: Optional[SplayNode] = None
 
-    Keyword arguments:
-    graph (List[List[int]]) -- The adjacency matrix representing the weighted graph.
-    s (int) -- The starting vertex for the salesman.
-    """
-    # store all vertex apart from source vertex
-    vertex = []
+class SplayTree:
+    """A splay tree data structure."""
+    def __init__(self):
+        self.root: Optional[SplayNode] = None
 
-    for i in range(V):
-        if i != s:
-            vertex.append(i)
+    def insert(self, key: int) -> None:
+        """Insert a key into the splay tree."""
+        self.root = self._insert(self.root, key)
 
-    # store minimum weight Hamiltonian Cycle
-    min_path = maxsize
-    next_permutation=permutations(vertex)
-    jls_extract_var = next_permutation
+    def _insert(self, node: Optional[SplayNode], key: int) -> SplayNode:
+        """Helper function to insert a key into the splay tree."""
+        if not node:
+            return SplayNode(key)
 
-    for i in jls_extract_var:
-        # store current Path weight(cost)
-        current_pathweight = 0
-        # compute current path weight
-        k = s
-        for j in i:
-            current_pathweight += graph[k][j]
-            k = j
-        current_pathweight += graph[k][s]
+        if key < node.key:
+            node.left = self._insert(node.left, key)
+        elif key > node.key:
+            node.right = self._insert(node.right, key)
+        return node
 
-        # update minimum
-        min_path = min(min_path, current_pathweight)
-        
-    return min_path
+    def search(self, key: int) -> bool:
+        """Search for a key in the splay tree."""
+        self.root = self._splay(self.root, key)
+        return self.root is not None and self.root.key == key
+
+    def _splay(self, node: Optional[SplayNode], key: int) -> Optional[SplayNode]:
+        """Splay the tree to bring the node with the given key to the root."""
+        if not node or node.key == key:
+            return node
+
+        if key < node.key:
+            if not node.left:
+                return node
+            if key < node.left.key:
+                node.left.left = self._splay(node.left.left, key)
+                node = self._rotate_right(node)
+            elif key > node.left.key:
+                node.left.right = self._splay(node.left.right, key)
+                if node.left.right:
+                    node.left = self._rotate_left(node.left)
+            return self._rotate_right(node)
+
+        else:
+            if not node.right:
+                return node
+            if key > node.right.key:
+                node.right.right = self._splay(node.right.right, key)
+                node = self._rotate_left(node)
+            elif key < node.right.key:
+                node.right.left = self._splay(node.right.left, key)
+                if node.right.left:
+                    node.right = self._rotate_right(node.right)
+            return self._rotate_left(node)
+
+    def _rotate_left(self, node: SplayNode) -> SplayNode:
+        """Perform a left rotation on the given node."""
+        new_root = node.right
+        node.right = new_root.left
+        new_root.left = node
+        return new_root
+
+    def _rotate_right(self, node: SplayNode) -> SplayNode:
+        """Perform a right rotation on the given node."""
+        new_root = node.left
+        node.left = new_root.right
+        new_root.right = node
+        return new_root
 
 
 if __name__ == '__main__':
     main()
-
