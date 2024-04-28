@@ -73,9 +73,16 @@ Polyglot Coding Playground is a comprehensive repository aimed at showcasing pro
         ├── searching/
             ├── binary-search/ - python         
             ├── boyer-moore/ - python            
+            ├── informed-search/
+                ├── a-graph-search/ - java
+                └── greedy-search/ - java, python
             ├── knutt-morris-pratt/ - python
             ├── linear-search/ - python            
-            └── rabin-karp/ - python     
+            ├── rabin-karp/ - python     
+            └── uninformed-search/
+                ├── breadth-first-search/ - java, python            
+                ├── depth-first-search/ - java, python
+                └── uniform-cost-search/ - java, python
         ├── sicgnal-processing/
             └── fast-fourier-transform/ - python
         ├── sorting/
