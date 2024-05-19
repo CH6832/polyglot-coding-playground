@@ -63,8 +63,8 @@ Polyglot Coding Playground is a comprehensive repository aimed at showcasing pro
         ├── numerical-integration/
             └── monte-carlo/ - python
         ├── numerical-optimization-algorithms
-            ├── classical-genetic-algorithms/ - python               
-            ├── conjugate-gradient/ - python                  
+            ├── classical-genetic-algorithms/ - python
+            ├── conjugate-gradient/ - python
             ├── gradient-descent/ - python
             └── simulated-annealing/ - python          
         ├── root-finding-optimization/
@@ -77,16 +77,16 @@ Polyglot Coding Playground is a comprehensive repository aimed at showcasing pro
                 ├── a-graph-search/ - java
                 └── greedy-search/ - java, python
             ├── knutt-morris-pratt/ - python
-            ├── linear-search/ - python            
-            ├── rabin-karp/ - python     
+            ├── linear-search/ - python
+            ├── rabin-karp/ - python
             └── uninformed-search/
-                ├── breadth-first-search/ - java, python            
+                ├── breadth-first-search/ - java, python
                 ├── depth-first-search/ - java, python
                 └── uniform-cost-search/ - java, python
         ├── signal-processing/
             └── fast-fourier-transform/ - python
         ├── sorting/
-            ├── bubble-sort/ - python
+            ├── bubble-sort/ - cpp, java, python
             ├── bucket-sort/ - python
             ├── counting-sort/ - python
             ├── heap-sort/ - python
@@ -96,15 +96,15 @@ Polyglot Coding Playground is a comprehensive repository aimed at showcasing pro
             └── topological-sort-of-dag/ - python
         ├── statistical-analysis             
             ├── bayesian-inference/ - python
-            ├── least-squares-fitting/ - python            
-            └── maximum-likelihood-estimation/ - python           
+            ├── least-squares-fitting/ - python
+            └── maximum-likelihood-estimation/ - python
         └── trees/
             ├── avl/ - python
             ├── binary-search-tree/ - python
             ├── fenwick-tree/ - python
             ├── kd-tree/ - python
             ├── minimum-spanning-tree-with-kruskal/ - python
-            ├── nearset-neighbour-with-kd-tree/ - python           
+            ├── nearset-neighbour-with-kd-tree/ - python
             ├── breadth-first-search/ - python
             ├── prefix-tree/ - java, python
             ├── radix-tree/ - python
@@ -161,6 +161,7 @@ Polyglot Coding Playground is a comprehensive repository aimed at showcasing pro
 * C++
   * [C++ reference](https://en.cppreference.com/w/)
   * [C++ Programming Language](https://devdocs.io/cpp/)
+  * [Documenting C++ Code](https://developer.lsst.io/cpp/api-docs.html)
 * Java
   * [Java Documentation](https://docs.oracle.com/en/java/)
 * Python
