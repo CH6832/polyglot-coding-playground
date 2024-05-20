@@ -126,7 +126,8 @@ Polyglot Coding Playground is a comprehensive repository aimed at showcasing pro
         ├── object-oriented-programming/ - cpp, java
         ├── single_linked-list/ - cpp           
         ├── skip-list/ - cpp
-        └── suffix-array/ - cpp
+        ├── suffix-array/ - cpp
+        └── user-defined-data-structures-in-python/ - binary tree, graph, linked list, queue and stack
 
 ### Design Patterns
 
