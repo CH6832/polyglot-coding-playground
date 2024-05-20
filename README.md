@@ -5,7 +5,7 @@
 Polyglot Coding Playground is a comprehensive repository aimed at showcasing proficiency in various programming languages through implementations of algorithms, data structures, design patterns, coding challenges, and small projects. Whether you're a beginner looking to learn new languages or an experienced developer wanting to dive deeper into language syntax, this repository provides a valuable resource for exploration and learning.
 
 > [!NOTE]
-> In addition to the implementations themselves, the repository also includes documentation in the main programs of the projects, providing insights into how the projects were built and what programs were used in their development.
+> In addition to the implementations themselves, the repository also includes documentation in the main programs of the projects. These documents provide insights into how the projects were built and what programs were used in their development. Specifically, the Python implementations offer detailed explanations on how the algorithms work.
 
 ## :notebook: Content overview
 
@@ -87,7 +87,7 @@ Polyglot Coding Playground is a comprehensive repository aimed at showcasing pro
             └── fast-fourier-transform/ - python
         ├── sorting/
             ├── bubble-sort/ - cpp, java, python
-            ├── bucket-sort/ - python
+            ├── bucket-sort/ - cpp, java, python
             ├── counting-sort/ - python
             ├── heap-sort/ - python
             ├── insertion-sort/ - python
