@@ -3,20 +3,42 @@
 # ----------------------------
 #Python program to print topological sorting of a DAG
 from collections import defaultdict
- 
+
+def main() -> None:
+    """Driving code"""
+    g= Graph(6)
+    g.addEdge(5, 2)
+    g.addEdge(5, 0)
+    g.addEdge(4, 0)
+    g.addEdge(4, 1)
+    g.addEdge(2, 3)
+    g.addEdge(3, 1)
+    
+    print ("Following is a Topological Sort of the given graph")
+    g.topologicalSort()
+
+    return None
+
 #Class to represent a graph
 class Graph:
-    def __init__(self,vertices):
-        self.graph = defaultdict(list) #dictionary containing adjacency List
-        self.V = vertices #No. of vertices
+    """Class to represent a graph."""
+
+    def __init__(self,vertices) -> None:
+        self.graph = defaultdict(list) # dictionary containing adjacency List
+        self.V = vertices # number of vertices
+
+        return None
  
     # function to add an edge to graph
-    def addEdge(self,u,v):
+    def addEdge(self,u,v) -> None:
+        """Add an edge to the paragraph."""
         self.graph[u].append(v)
+
+        return None
  
     # A recursive function used by topologicalSort
-    def topologicalSortUtil(self,v,visited,stack):
- 
+    def topologicalSortUtil(self,v,visited,stack) -> None:
+        """Recursive function sued by topological sort."""
         # Mark the current node as visited.
         visited[v] = True
  
@@ -27,10 +49,13 @@ class Graph:
  
         # Push current vertex to stack which stores result
         stack.insert(0,v)
- 
-    # The function to do Topological Sort. It uses recursive
-    # topologicalSortUtil()
-    def topologicalSort(self):
+
+        return None
+
+    # 
+    def topologicalSort(self) -> None:
+        """The function to do Topological Sort. It uses
+        recursive topologicalSortUtil()."""
         # Mark all the vertices as not visited
         visited = [False]*self.V
         stack =[]
@@ -44,16 +69,7 @@ class Graph:
         # Print contents of stack
         print (stack)
 
+        return None
 
 if __name__ == "__main__":
-    g= Graph(6)
-    g.addEdge(5, 2);
-    g.addEdge(5, 0);
-    g.addEdge(4, 0);
-    g.addEdge(4, 1);
-    g.addEdge(2, 3);
-    g.addEdge(3, 1);
-    
-    print ("Following is a Topological Sort of the given graph")
-    g.topologicalSort()
-
+    main()

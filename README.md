@@ -2,10 +2,7 @@
 
 ## :newspaper: About the project
 
-Polyglot Coding Playground is a comprehensive repository aimed at showcasing proficiency in various programming languages through implementations of algorithms, data structures, design patterns, coding challenges, and small projects. Whether you're a beginner looking to learn new languages or an experienced developer wanting to dive deeper into language syntax, this repository provides a valuable resource for exploration and learning.
-
-> [!NOTE]
-> In addition to the implementations themselves, the repository also includes documentation in the main programs of the projects. These documents provide insights into how the projects were built and what programs were used in their development. Specifically, the Python implementations offer detailed explanations on how the algorithms work.
+Polyglot Coding Playground is a comprehensive repository aimed at showcasing proficiency in various programming languages through implementations of algorithms, data structures, design patterns, coding challenges, and small projects. Whether you're a beginner looking to learn new languages or an experienced developer wanting to dive deeper into language syntax, this repository provides a valuable resource for exploration and learning. Detailed explanations on how the algorithms work can be found in the respective source code.
 
 ## :notebook: Content overview
 
@@ -90,10 +87,10 @@ Polyglot Coding Playground is a comprehensive repository aimed at showcasing pro
             ├── bucket-sort/ - cpp, java, python
             ├── counting-sort/ - cpp, java, python
             ├── heap-sort/ - cpp, java, python
-            ├── insertion-sort/ - python
-            ├── merge-sort/ - python
-            ├── quick-sort/ - python
-            └── topological-sort-of-dag/ - python
+            ├── insertion-sort/ - cpp, java, python
+            ├── merge-sort/ - cpp, java, python
+            ├── quick-sort/ - cpp, java, python
+            └── topological-sort-of-dag/ - cpp, java, python
         ├── statistical-analysis             
             ├── bayesian-inference/ - python
             ├── least-squares-fitting/ - python
@@ -116,7 +113,7 @@ Polyglot Coding Playground is a comprehensive repository aimed at showcasing pro
 ### Data Structures
 
     .
-    └── data-structures/ - cpp
+    └── data-structures/
         ├── disjoint-set/ - cpp
         ├── double-linked-list/ - cpp, java    
         ├── dynamic-array/ - cpp
@@ -127,7 +124,7 @@ Polyglot Coding Playground is a comprehensive repository aimed at showcasing pro
         ├── single_linked-list/ - cpp           
         ├── skip-list/ - cpp
         ├── suffix-array/ - cpp
-        └── user-defined-data-structures-in-python/ - binary tree, graph, linked list, queue and stack
+        └── user-defined-data-structures-in-python/ - python: binary tree, graph, linked list, queue and stack
 
 ### Design Patterns
 

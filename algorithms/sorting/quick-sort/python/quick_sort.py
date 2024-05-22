@@ -1,22 +1,40 @@
-def quick_sort(unsorted_list: list):
-    """Quick sort"""
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+"""quick_sort.py
+
+Quick sort is a popular sorting algorithm that follows the "divide and
+conquer" strategy. It works by selecting a "pivot" element from the array
+and partitioning the other elements into two sub-arrays according to whether
+they are less than or greater than the pivot. The sub-arrays are then recursively
+sorted.
+"""
+
+def main() -> None:
+    """Driving code."""
+    sample_list = [38, 27, 43, 3, 9, 82, 10]
+    print("Original list:", sample_list)
+    sorted_list = quick_sort(sample_list)
+    print("Sorted list:", sorted_list)
+
+def quick_sort(unsorted_list: list) -> list:
+    """Sorts a list using the quick sort algorithm.
+
+    Args:
+        unsorted_list (list): The list to be sorted.
+
+    Returns:
+        list: The sorted list.
+    """
     elements = len(unsorted_list)
-    # base case
     if elements < 2:
         return unsorted_list
-    current_position = 0 #Position of the partitioning element
-    for i in range(1, elements): #Partitioning loop
-         if unsorted_list[i] <= unsorted_list[0]:
-              current_position += 1
-              temp = unsorted_list[i]
-              unsorted_list[i] = unsorted_list[current_position]
-              unsorted_list[current_position] = temp
 
-    temp = unsorted_list[0]
-    unsorted_list[0] = unsorted_list[current_position] 
-    unsorted_list[current_position] = temp #Brings pivot to it's appropriate position
-    left = quick_sort(unsorted_list[0:current_position]) #Sorts the elements to the left of pivot
-    right = quick_sort(unsorted_list[current_position+1:elements]) #sorts the elements to the right of pivot
-    unsorted_list = left + [unsorted_list[current_position]] + right #Merging everything together 
+    pivot = unsorted_list[0]
+    left = [x for x in unsorted_list[1:] if x <= pivot]
+    right = [x for x in unsorted_list[1:] if x > pivot]
 
-    return unsorted_list
+    return quick_sort(left) + [pivot] + quick_sort(right)
+
+if __name__ == "__main__":
+    main()
