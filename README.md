@@ -88,8 +88,8 @@ Polyglot Coding Playground is a comprehensive repository aimed at showcasing pro
         ├── sorting/
             ├── bubble-sort/ - cpp, java, python
             ├── bucket-sort/ - cpp, java, python
-            ├── counting-sort/ - python
-            ├── heap-sort/ - python
+            ├── counting-sort/ - cpp, java, python
+            ├── heap-sort/ - cpp, java, python
             ├── insertion-sort/ - python
             ├── merge-sort/ - python
             ├── quick-sort/ - python
