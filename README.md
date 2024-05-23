@@ -114,16 +114,16 @@ Polyglot Coding Playground is a comprehensive repository aimed at showcasing pro
 
     .
     └── data-structures/
-        ├── disjoint-set/ - cpp
+        ├── disjoint-set/ - cpp, java
         ├── double-linked-list/ - cpp, java    
-        ├── dynamic-array/ - cpp
+        ├── dynamic-array/ - cpp, java
         ├── hash-map/ - cpp, java
-        ├── heap/ - cpp
-        ├── lock-free-linked-list/ - cpp    
+        ├── heap/ - cpp, java
+        ├── lock-free-linked-list/ - cpp, java    
         ├── object-oriented-programming/ - cpp, java
-        ├── single_linked-list/ - cpp           
-        ├── skip-list/ - cpp
-        ├── suffix-array/ - cpp
+        ├── single_linked-list/ - cpp, java           
+        ├── skip-list/ - cpp, java
+        ├── suffix-array/ - cpp, java
         └── user-defined-data-structures-in-python/ - python: binary tree, graph, linked list, queue and stack
 
 ### Design Patterns
