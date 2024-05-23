@@ -92,9 +92,9 @@ Polyglot Coding Playground is a comprehensive repository aimed at showcasing pro
             ├── quick-sort/ - cpp, java, python
             └── topological-sort-of-dag/ - cpp, java, python
         ├── statistical-analysis             
-            ├── bayesian-inference/ - python
-            ├── least-squares-fitting/ - python
-            └── maximum-likelihood-estimation/ - python
+            ├── bayesian-inference/ - cpp, java
+            ├── least-squares-fitting/ - cpp, java
+            └── maximum-likelihood-estimation/ - cpp, java
         └── trees/
             ├── avl/ - python
             ├── binary-search-tree/ - python
