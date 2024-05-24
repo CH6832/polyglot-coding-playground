@@ -81,7 +81,7 @@ Polyglot Coding Playground is a comprehensive repository aimed at showcasing pro
                 ├── depth-first-search/ - java, python
                 └── uniform-cost-search/ - java, python
         ├── signal-processing/
-            └── fast-fourier-transform/ - python
+            └── fast-fourier-transform/ - cpp, java
         ├── sorting/
             ├── bubble-sort/ - cpp, java, python
             ├── bucket-sort/ - cpp, java, python
