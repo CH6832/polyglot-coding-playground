@@ -25,8 +25,8 @@ Polyglot Coding Playground is a comprehensive repository aimed at showcasing pro
         ├── computational-geoemtry/
             └── convex-hull/ - cpp, java, python
         ├── cryptography/
-            ├── rsa-encryption/ - python
-            └── sha256-hashing/ - python          
+            ├── rsa-encryption/ - cpp, java, python
+            └── sha256-hashing/ - cpp, java, python          
         ├── differential-equations/
             ├── euler-method/ - python
             └── runge-kutta/ - python          
@@ -130,20 +130,20 @@ Polyglot Coding Playground is a comprehensive repository aimed at showcasing pro
 
     .
     └── design-patterns/
-        ├── abstract-factory-pattern/ - python
-        ├── adapter-pattern/ - python    
-        ├── builder-pattern/ - python
-        ├── command-pattern/ - python
-        ├── composite-pattern/ - python
-        ├── decorator-pattern/ - python    
-        ├── factory-method-pattern/ - python
-        ├── flyweight-pattern/ - python           
-        ├── oberserver-pattern/ - python    
-        ├── prototype-pattern/ - python
-        ├── proxy-pattern/ - python    
+        ├── abstract-factory-pattern/ - cpp, java, python
+        ├── adapter-pattern/ -  cpp, java, python    
+        ├── builder-pattern/ - cpp, java, python
+        ├── command-pattern/ - cpp, java, python
+        ├── composite-pattern/ - cpp, java, python
+        ├── decorator-pattern/ - cpp, java, python    
+        ├── factory-method-pattern/ - cpp, java, python
+        ├── flyweight-pattern/ - cpp, java, python           
+        ├── oberserver-pattern/ - cpp, java, python    
+        ├── prototype-pattern/ - cpp, java, python
+        ├── proxy-pattern/ - cpp, java    
         ├── singleton-pattern/ - cpp, python
-        ├── strategy-pattern/ - python
-        └── template-method-pattern/ - python
+        ├── strategy-pattern/ -  cpp, java, python
+        └── template-method-pattern/ -  cpp, java, python
 
 ### Coding Challenges
 
