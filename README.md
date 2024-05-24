@@ -83,14 +83,14 @@ Polyglot Coding Playground is a comprehensive repository aimed at showcasing pro
         ├── signal-processing/
             └── fast-fourier-transform/ - cpp, java
         ├── sorting/
-            ├── bubble-sort/ - cpp, csharp, java, python, zig
-            ├── bucket-sort/ - cpp, csharp, java, python, zig
-            ├── counting-sort/ - cpp, csharp, java, python, zig
-            ├── heap-sort/ - cpp, csharp, java, python, zig
-            ├── insertion-sort/ - cpp, csharp, java, python, zig
-            ├── merge-sort/ - cpp, csharp, java, python, zig
-            ├── quick-sort/ - cpp, csharp, java, python, zig
-            └── topological-sort-of-dag/ - cpp, csharp, java, python, zig
+            ├── bubble-sort/ - cpp, csharp, golang, java, python, rust, swift, zig
+            ├── bucket-sort/ - cpp, csharp, golang, java, python, rust, swift, zig
+            ├── counting-sort/ - cpp, csharp, java, python, rust, swift, zig
+            ├── heap-sort/ - cpp, csharp, golang, java, python, rust, swift, zig
+            ├── insertion-sort/ - cpp, csharp, golang, java, python, rust, swift, zig
+            ├── merge-sort/ - cpp, csharp, golang, java, python, rust, swift, zig
+            ├── quick-sort/ - cpp, csharp, golang, java, python, rust, swift, zig
+            └── topological-sort-of-dag/ - cpp, csharp, golang, java, python, rust, swift, zig
         ├── statistical-analysis             
             ├── bayesian-inference/ - cpp, java
             ├── least-squares-fitting/ - cpp, java
