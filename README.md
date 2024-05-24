@@ -28,16 +28,16 @@ Polyglot Coding Playground is a comprehensive repository aimed at showcasing pro
             ├── rsa-encryption/ - cpp, java, python
             └── sha256-hashing/ - cpp, java, python          
         ├── differential-equations/
-            ├── euler-method/ - python
-            └── runge-kutta/ - python          
+            ├── euler-method/ - cpp, java, python
+            └── runge-kutta/ - cpp, java, python          
         ├── divide-and-conquer/
-            └── lowest-common-ancestor/ - python        
+            └── lowest-common-ancestor/ - cpp, java, python        
         ├── dynamic-programming/
-            └── knapsack-problem/ - python
+            └── knapsack-problem/ - cpp, java, python
         ├── graph/
-            ├── breadth-first-search/ - python
-            ├── depth-first-search-for-a-graph/ - python            
-            └── shortest-path-problem-with-dijkstra/ - python         
+            ├── breadth-first-search/ - cpp, java, python
+            ├── depth-first-search-for-a-graph/ - cpp, java, python            
+            └── shortest-path-problem-with-dijkstra/ - cpp, java, python         
         ├── linear-algebra/
             ├── eigenvalue-algorithms/ - python
                 ├── lanczos-algorithm/ - python
@@ -47,26 +47,26 @@ Polyglot Coding Playground is a comprehensive repository aimed at showcasing pro
             ├── jacobi-iteration/ - python            
             └── least-squares-method/ - python         
         ├── machine-learning/
-            └── linear-regression/ - python
+            └── linear-regression/ - cpp, java, python
         ├── matrix-algorithms
             ├── eigenvalue-algorithms/
-                ├── power-iteration/ - python
-                └── qr-algorithm/ - python                 
-            ├── lu-decomposition/ - python            
-            ├── qr-decomposition/ - python
-            └── singular-value-decomposition/ - python            
+                ├── power-iteration/ - cpp, java, python
+                └── qr-algorithm/ - cpp, java, python                 
+            ├── lu-decomposition/ - cpp, java, python            
+            ├── qr-decomposition/ - cpp, java, python
+            └── singular-value-decomposition/ - cpp, java, python            
         ├── number-theory/
-            └── euclid/ - python
+            └── euclid/ - cpp, java, python
         ├── numerical-integration/
-            └── monte-carlo/ - python
+            └── monte-carlo/ - cpp, java, python
         ├── numerical-optimization-algorithms
-            ├── classical-genetic-algorithms/ - python
-            ├── conjugate-gradient/ - python
-            ├── gradient-descent/ - python
-            └── simulated-annealing/ - python          
+            ├── classical-genetic-algorithms/ - cpp, java, python
+            ├── conjugate-gradient/ - cpp, java, python
+            ├── gradient-descent/ - cpp, java, python
+            └── simulated-annealing/ - cpp, java, python          
         ├── root-finding-optimization/
-            ├── gradient-descent/ - python            
-            └── newtons-method/ - python 
+            ├── gradient-descent/ - cpp, java, python            
+            └── newtons-method/ - cpp, java, python 
         ├── searching/
             ├── binary-search/ - python         
             ├── boyer-moore/ - python            
@@ -83,14 +83,14 @@ Polyglot Coding Playground is a comprehensive repository aimed at showcasing pro
         ├── signal-processing/
             └── fast-fourier-transform/ - cpp, java
         ├── sorting/
-            ├── bubble-sort/ - cpp, java, python
-            ├── bucket-sort/ - cpp, java, python
-            ├── counting-sort/ - cpp, java, python
-            ├── heap-sort/ - cpp, java, python
-            ├── insertion-sort/ - cpp, java, python
-            ├── merge-sort/ - cpp, java, python
-            ├── quick-sort/ - cpp, java, python
-            └── topological-sort-of-dag/ - cpp, java, python
+            ├── bubble-sort/ - cpp, java, python, zig
+            ├── bucket-sort/ - cpp, java, python, zig
+            ├── counting-sort/ - cpp, java, python, zig
+            ├── heap-sort/ - cpp, java, python, zig
+            ├── insertion-sort/ - cpp, java, python, zig
+            ├── merge-sort/ - cpp, java, python, zig
+            ├── quick-sort/ - cpp, java, python, zig
+            └── topological-sort-of-dag/ - cpp, java, python, zig
         ├── statistical-analysis             
             ├── bayesian-inference/ - cpp, java
             ├── least-squares-fitting/ - cpp, java
