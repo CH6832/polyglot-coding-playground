@@ -160,12 +160,18 @@ Polyglot Coding Playground is a comprehensive repository aimed at showcasing pro
   * [C++ reference](https://en.cppreference.com/w/)
   * [C++ Programming Language](https://devdocs.io/cpp/)
   * [Documenting C++ Code](https://developer.lsst.io/cpp/api-docs.html)
+* Go/Golang
+  * [Go](https://go.dev/)
 * Java
   * [Java Documentation](https://docs.oracle.com/en/java/)
 * Python
   * [Python 3.12 documentation](https://docs.python.org/3/)
   * [Built-in Functions](https://docs.python.org/3/library/functions.html)
   * [Python Module Index](https://docs.python.org/3/py-modindex.html)
+* Rust
+  * [Learn Rust](https://www.rust-lang.org/learn)
+* Swift
+  * [Swift Documentation](https://nshipster.com/swift-documentation/)
 * Markdwon
   * [Basic syntax](https://www.markdownguide.org/basic-syntax/)
   * [Complete list of github markdown emofis](https://dev.to/nikolab/complete-list-of-github-markdown-emoji-markup-5aia)
