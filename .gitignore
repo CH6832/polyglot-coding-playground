@@ -150,3 +150,37 @@ build/
 Debug/
 Release/
 .vs/
+
+# Rust specific ignores
+/target/
+Cargo.lock
+Cargo.toml.orig
+*.rlib
+*.rmeta
+debug/
+release/
+*.swp
+.DS_Store
+
+# Go (Golang) specific ignores
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Go binary file
+bin/
+
+# Object files
+*.o
+
+# Go package file
+*.a
+
+# Swift specific ignores
+.DS_Store
+.build/
